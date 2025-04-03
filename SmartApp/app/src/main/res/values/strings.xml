@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartApp</string>
+
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="submit">Submit</string>
+
+    <!-- Authentication -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_nisn">NISN (10 digit)</string>
+    <string name="hint_nip">NIP (18 digit)</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="text_no_account">Don\'t have an account?</string>
+    <string name="text_have_account">Already have an account?</string>
+    <string name="text_register">Register</string>
+    <string name="text_login">Login</string>
+
+    <!-- Error Messages -->
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_nisn">NISN must be 10 digits</string>
+    <string name="error_invalid_nip">NIP must be 18 digits</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_not_match">Passwords do not match</string>
+    <string name="error_login_failed">Login failed. Please check your credentials.</string>
+    <string name="error_network">Network error. Please try again.</string>
+    <string name="error_registration_failed">Registration failed. Please try again.</string>
+
+    <!-- Success Messages -->
+    <string name="success_login">Login successful</string>
+    <string name="success_register">Registration successful</string>
+
+    <!-- User Types -->
+    <string-array name="login_types">
+        <item>Email</item>
+        <item>NISN</item>
+        <item>NIP</item>
+    </string-array>
+
+    <string-array name="login_type_values">
+        <item>email</item>
+        <item>nisn</item>
+        <item>nip</item>
+    </string-array>
+
+    <string-array name="user_roles">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+
+    <string-array name="user_role_values">
+        <item>siswa</item>
+        <item>guru</item>
+    </string-array>
+
+    <!-- Materials -->
+    <string name="title_materials">Learning Materials</string>
+    <string name="no_materials">No materials available</string>
+    <string name="upload_material">Upload Material</string>
+    <string name="download_material">Download Material</string>
+
+    <!-- Quizzes -->
+    <string name="title_quizzes">Quizzes</string>
+    <string name="no_quizzes">No quizzes available</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="submit_quiz">Submit Quiz</string>
+    <string name="quiz_result">Quiz Result</string>
+
+    <!-- Assignments -->
+    <string name="title_assignments">Assignments</string>
+    <string name="no_assignments">No assignments available</string>
+    <string name="submit_assignment">Submit Assignment</string>
+    <string name="assignment_submitted">Assignment submitted</string>
+    <string name="assignment_due_date">Due Date: %s</string>
+
+    <!-- Subjects -->
+    <string name="title_subjects">Subjects</string>
+    <string name="no_subjects">No subjects available</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="edit_subject">Edit Subject</string>
+    <string name="delete_subject">Delete Subject</string>
+
+    <!-- Navigation -->
+    <string name="nav_materials">Materials</string>
+    <string name="nav_quizzes">Quizzes</string>
+    <string name="nav_assignments">Assignments</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Profile -->
+    <string name="title_profile">Profile</string>
+    <string name="profile_role_student">Student</string>
+    <string name="profile_role_teacher">Teacher</string>
+    <string name="profile_role_admin">Administrator</string>
+    <string name="profile_nisn">NISN: %s</string>
+    <string name="profile_nip">NIP: %s</string>
+    <string name="profile_admin_code">Admin Code: %s</string>
+    
+    <!-- Profile Fields -->
+    <string name="hint_admin_code">Kode Admin</string>
+    <string name="hint_role">Role/Jabatan</string>
+    <string name="hint_phone">Nomor Telepon</string>
+    <string name="hint_birth_date">Tanggal Lahir</string>
+    <string name="hint_birth_place">Tempat Lahir</string>
+    <string name="hint_address">Alamat</string>
+    <string name="hint_class">Kelas</string>
+    <string name="hint_parent_name">Nama Orang Tua</string>
+    <string name="hint_parent_phone">Nomor Telepon Orang Tua</string>
+    <string name="hint_education_level">Tingkat Pendidikan</string>
+    <string name="hint_major">Jurusan</string>
+    <string name="hint_join_date">Tanggal Bergabung</string>
+
+    <!-- Profile Messages -->
+    <string name="error_loading_profile">Gagal memuat profil</string>
+    <string name="error_update_profile">Gagal memperbarui profil</string>
+    <string name="success_update_profile">Profil berhasil diperbarui</string>
+
+    <!-- Gender -->
+    <string-array name="genders">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
