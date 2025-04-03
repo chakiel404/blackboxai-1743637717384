@@ -1,0 +1,6 @@
+[02-Apr-2025 23:49:23 UTC] PHP Fatal error:  Uncaught Exception: Connection failed: Database error in /project/sandbox/user-workspace/WebAPI/core/DB.php:19
+Stack trace:
+#0 /project/sandbox/user-workspace/WebAPI/core/DB.php(25): DB->__construct()
+#1 /project/sandbox/user-workspace/WebAPI/api/auth.php(18): DB::getInstance()
+#2 {main}
+  thrown in /project/sandbox/user-workspace/WebAPI/core/DB.php on line 19
