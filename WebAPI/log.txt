@@ -1,0 +1,3 @@
+[2025-04-02 23:49:23] Database Connection Error: could not find driver
+[2025-04-03 00:03:25] Query Error: SQLSTATE[HY000]: General error: 1 no such table: users SQL: SELECT user_id, email, password, full_name, role FROM users WHERE email = ?
+[2025-04-03 00:03:25] Login Error: Database query failed
