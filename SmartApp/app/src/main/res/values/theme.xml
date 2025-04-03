@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light/Default theme -->
+    <style name="Theme.SmartApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/background_light</item>
+        
+        <!-- Card and surface colors -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/primary_text</item>
+        
+        <!-- Enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+
+        <!-- Default text styles -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.SmartApp.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.SmartApp.Headline2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.SmartApp.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.SmartApp.Body2</item>
+
+        <!-- Component styles -->
+        <item name="materialCardViewStyle">@style/Widget.SmartApp.CardView</item>
+        <item name="textInputStyle">@style/Widget.SmartApp.TextInputLayout</item>
+        <item name="bottomNavigationStyle">@style/Widget.SmartApp.BottomNavigation</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.SmartApp.MaterialAlertDialog</item>
+        <item name="materialButtonStyle">@style/Widget.SmartApp.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.SmartApp.Button.OutlinedButton</item>
+        <item name="toolbarStyle">@style/Widget.SmartApp.Toolbar</item>
+        <item name="chipStyle">@style/Widget.SmartApp.Chip</item>
+    </style>
+
+    <!-- Base Activity theme -->
+    <style name="Theme.SmartApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.SmartApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.SmartApp</item>
+    </style>
+
+    <!-- Dialog theme -->
+    <style name="Theme.SmartApp.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- Bottom sheet dialog theme -->
+    <style name="Theme.SmartApp.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.SmartApp.BottomSheet</item>
+    </style>
+
+    <style name="Widget.SmartApp.BottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.SmartApp.LargeComponent</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <!-- Shape appearance -->
+    <style name="ShapeAppearance.SmartApp.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.SmartApp.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.SmartApp.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
