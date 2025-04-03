@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login Types -->
+    <string-array name="login_types">
+        <item>Email</item>
+        <item>NISN</item>
+        <item>NIP</item>
+    </string-array>
+
+    <!-- User Roles -->
+    <string-array name="user_roles">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+
+    <!-- Login Type Values (for API) -->
+    <string-array name="login_type_values">
+        <item>email</item>
+        <item>nisn</item>
+        <item>nip</item>
+    </string-array>
+
+    <!-- User Role Values (for API) -->
+    <string-array name="user_role_values">
+        <item>siswa</item>
+        <item>guru</item>
+    </string-array>
+</resources>
